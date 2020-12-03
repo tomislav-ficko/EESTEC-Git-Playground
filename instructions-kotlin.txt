@@ -1,0 +1,13 @@
+To run Kotlin files from the command line, first install the Kotlin compiler (kotlinc) from https://github.com/JetBrains/kotlin/releases/tag/v1.4.20. 
+Then (if on Windows) add the bin folder to your Path (User Environment Variable). 
+
+Finally, you are ready to execute your Kotlin file. 
+
+Open a new terminal windows (e.g. PowerShell) and type "kotlinc -version" to check if it's correctly installed. 
+If it prints out the version, continue to the next step. 
+
+In order to compile the code, execute the following command: "kotlinc file_name.kt - include-runtime -d file_name.jar". 
+Now the compiler will create a jar file which we'll be able to execute. 
+In the end, execute "java -jar file_name.jar" to run the code. 
+
+Note: It goes without saying that you need to be located in the folder where the .kt file is contained, in order for the commands to be working.
