@@ -1,5 +1,5 @@
 Two important PowerShell commands for managing files:
-
+g
 -> "New-Item file_name.extension" - creates new  file
 
 -> "Invoke-Item file_name.extension" - opens the file in Notepad for editing
