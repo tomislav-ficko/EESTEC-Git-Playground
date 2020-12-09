@@ -6,6 +6,7 @@ fun main(args: Array<String>) {
 
 class KotlinExample {
     fun getResponse() : String {
+	//EESTEC's moto
         return "EESTEC, what's your profession???"
     }
 }
