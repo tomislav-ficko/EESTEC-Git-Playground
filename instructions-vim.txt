@@ -1,0 +1,45 @@
+Moving through the text can be achieved in two ways, either using the arrow buttons, or by pressing h, j, k and l button.
+The reason for the latter combination being that the keys are easily reachable when typing, there is no need to move your hands.
+
+h - move left
+j - move down
+k - move up
+l - move right
+
+w - move foreward to the next word
+b - move backwards to the previous word
+{ - move to upper paragraph
+} - move to lower paragraph
+gg - move to top of file
+G - move to bottom of file
+
+i - insert (before the currently selected character)
+I - move to the beginning of the line and insert
+a - append (after the currently selected character)
+A - move to the end of the line and append
+o - add a new line under the current line and insert
+O - add a new line before the current line and insert
+
+u - undo
+ctrl+r - redo
+d_ - delete character or line defined by the additional character (_ is h, j, k or l)
+dd - delete the entire current line
+dw - delete next word
+db - delete previous word
+di_ - "delete in" command (deletes everything contained inside the surrounding character and its pair, e.g. _ can be (, ', ", etc.)
+
+y - copy
+yy - copy entire line
+p - paste
+yw - copy next word
+yb - copy previous word
+
+f_ - find the next instance of the given char (e.g. _ can be fd, for finding the next d)
+
+Commands:
+:q - quit
+:w - write (save)
+:w filename.extension - write to new file named "filename.extension"
+:wq - write and quit
+:number - move to line "number"
+:earlier _ - revert changes made in last given period (e.g. _ can be 3 minutes)
